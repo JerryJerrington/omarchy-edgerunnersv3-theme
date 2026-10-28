@@ -1,0 +1,10 @@
+# Edgerunners V2 shell popup overrides.
+# A shell.<section>.toml replaces that whole section, so every popup key is
+# repeated here; only border-width differs from the generated defaults.
+
+background       = "#05080A"
+background-alpha = 1.0
+text             = "#EBECFD"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = 2

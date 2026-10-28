@@ -1,0 +1,45 @@
+# Edgerunners V2 - Cyberpunk Edgerunners inspired palette
+# Ported from JerryJerrington/omarchy-edgerunnersv2-theme (Aether palette),
+# amplified for Omarchy 4.5: magenta accent, neon CP2077 yellow, neon
+# magenta -> cyan window/popup border gradient.
+
+mode = "dark"
+
+accent = "#E957E8"
+selection = "#1e2123"
+muted = "#313c44"
+
+background = "#05080A"
+dark_background = "#040608"
+darker_background = "#030405"
+lighter_background = "#1e2123"
+
+foreground = "#EBECFD"
+dark_foreground = "#b0b1be"
+light_foreground = "#eeeffd"
+bright_foreground = "#f0f1fe"
+
+red = "#f4349a"
+yellow = "#b88faa"
+orange = "#f652a9"
+green = "#7bbc96"
+cyan = "#9BF1F2"
+blue = "#807cda"
+magenta = "#E957E8"
+brown = "#943165"
+
+bright_red = "#fe86c6"
+bright_yellow = "#ddc6d5"
+bright_green = "#b6ddc6"
+bright_cyan = "#ebfdfd"
+bright_blue = "#c3c1f0"
+bright_magenta = "#f7a4f7"
+
+# Terminal selection matches omarchy-edgerunners-theme (v1): white on muted.
+selection_foreground = "#ffffff"
+selection_background = "#313c44"
+
+# Neon gradient used for window borders and the whole Omarchy shell chrome
+# (popups, notifications, lock screen, menus, launcher).
+hyprland_active_border = "#E957E8 #9BF1F2 25deg"
+hyprland_inactive_border = "rgba(313c44aa)"

@@ -1,0 +1,97 @@
+# Edgerunners V2 btop theme
+# Ported from the original omarchy-edgerunners-theme btop palette, with the
+# keys Omarchy 4.5 expects added (meter_bg, selected_fg, process_*, gradients).
+
+# Main background
+theme[main_bg]="#05080A"
+
+# Main text color
+theme[main_fg]="#ffffff"
+
+# Title color for boxes
+theme[title]="#E957E8"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#9BF1F2"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#313c44"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#ffffff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#313c44"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#ffffff"
+
+# Background color of the percentage meters
+theme[meter_bg]="#313c44"
+
+# Misc colors for processes box
+theme[proc_misc]="#E957E8"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#7bbc96"
+theme[mem_box]="#7bbc96"
+theme[net_box]="#7bbc96"
+theme[proc_box]="#7bbc96"
+
+# Box divider line and small boxes line color
+theme[div_line]="#313c44"
+
+# Temperature graph color
+theme[temp_start]="#9BF1F2"
+theme[temp_mid]="#807cda"
+theme[temp_end]="#7bbc96"
+
+# CPU graph colors
+theme[cpu_start]="#9BF1F2"
+theme[cpu_mid]="#807cda"
+theme[cpu_end]="#7bbc96"
+
+# Mem/Disk free meter
+theme[free_start]="#807cda"
+theme[free_mid]="#b88faa"
+theme[free_end]="#b88faa"
+
+# Mem/Disk cached meter
+theme[cached_start]="#b88faa"
+theme[cached_mid]="#b88faa"
+theme[cached_end]="#b88faa"
+
+# Mem/Disk available meter
+theme[available_start]="#9BF1F2"
+theme[available_mid]="#9BF1F2"
+theme[available_end]="#9BF1F2"
+
+# Mem/Disk used meter
+theme[used_start]="#7bbc96"
+theme[used_mid]="#7bbc96"
+theme[used_end]="#7bbc96"
+
+# Download graph colors
+theme[download_start]="#b88faa"
+theme[download_mid]="#9BF1F2"
+theme[download_end]="#807cda"
+
+# Upload graph colors
+theme[upload_start]="#b88faa"
+theme[upload_mid]="#9BF1F2"
+theme[upload_end]="#807cda"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#9BF1F2"
+theme[process_mid]="#807cda"
+theme[process_end]="#7bbc96"
+
+# Graph gradient colors (spectrum shades from background to foreground)
+theme[gradient_color_0]="#05080A"
+theme[gradient_color_1]="#313c44"
+theme[gradient_color_2]="#313c44"
+theme[gradient_color_3]="#313c44"
+theme[gradient_color_4]="#b0b1be"
+theme[gradient_color_5]="#EBECFD"
+theme[gradient_color_6]="#ffffff"
+theme[gradient_color_7]="#ffffff"

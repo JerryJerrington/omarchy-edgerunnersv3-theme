@@ -1,0 +1,14 @@
+# Edgerunners V2 lock screen overrides.
+# Applied on top of the shell.lock section Omarchy generates from colors.toml.
+
+background       = "#05080A"
+background-alpha = 0.8
+text             = "#EBECFD"
+placeholder      = "#a5a8b4"
+text-error       = "#f4349a"
+border           = "#E957E8"
+border-active    = "#E957E8"
+border-error     = "#f4349a"
+border-alpha     = 1.0
+selection        = "#E957E8"
+selection-alpha  = 0.45
