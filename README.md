@@ -1,8 +1,8 @@
-# Edgerunners V3 for Omarchy
+# Edgerunners V3 for Omarchy Quattro 4.5
 
-A Cyberpunk Edgerunners inspired theme for [Omarchy](https://omarchy.org/),
+A Cyberpunk Edgerunners inspired theme for [Omarchy Quattro](https://omarchy.org/) 4.5,
 ported from [JerryJerrington/omarchy-edgerunnersv2-theme](https://github.com/JerryJerrington/omarchy-edgerunnersv2-theme)
-(the "Aether" palette) to the Omarchy 4.5 theme format.
+(the "Aether" palette) to the Omarchy Quattro 4.5 theme format.
 
 Amplified for the desktop: the original periwinkle accent is promoted to
 neon magenta, and the window border is a magenta -> cyan gradient that
@@ -80,5 +80,5 @@ The gradient border still works for everyone, since it is data in
 ## Credits
 
 * Original palette, terminal colours and wallpapers: JerryJerrington / Aether
-* Port: Edgerunners V3 for Omarchy 4.5 (terminal palette from
+* Port: Edgerunners V3 for Omarchy Quattro 4.5 (terminal palette from
   `omarchy-edgerunners-theme`, shell/UI from `omarchy-edgerunnersv2-theme`)
