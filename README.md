@@ -119,4 +119,4 @@ regenerated from `colors.toml`.
 
 * Original palette, terminal colours and wallpapers: JerryJerrington / Aether
 * Port: Edgerunners V3 for Omarchy 4.5 (terminal palette from
-  `omarchy-edgerunners-theme`, shell/UI from `omarchy-edgerunnersv2-theme`, neon orange accent swap)
+  `omarchy-edgerunners-theme`, shell/UI from `omarchy-edgerunnersv2-theme`)
