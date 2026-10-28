@@ -77,44 +77,6 @@ omarchy theme set edgerunners-v3
 The gradient border still works for everyone, since it is data in
 `colors.toml`.
 
-## Listings (eza)
-
-Omarchy aliases `ls` to `eza`, and eza does not read `colors.toml`; it emits
-ANSI slots that the terminal resolves through the active theme palette. eza's
-default paints directories slot 4 (blue). `~/.config/eza/theme.yml` moves them
-to slot 5 (magenta) and spreads the other file kinds across the neon palette:
-
-```yaml
-filekinds:
-  directory: {foreground: Magenta, is_bold: true}
-  mount_point: {foreground: Cyan, is_bold: true, is_underline: true}
-
-file_type:
-  image: {foreground: LightCyan}
-  video: {foreground: LightMagenta, is_bold: true}
-  source: {foreground: LightBlue}
-  compressed: {foreground: Red, is_bold: true}
-```
-
-The full mapping also covers git statuses, dates, headers, link counts and
-permissions. `Magenta`, `Cyan`, `LightCyan` and friends are ANSI slot names, not
-fixed hex, so switching to Catppuccin turns folders Catppuccin's magenta
-without editing this file. Because eza cannot read a theme directory, the
-mapping is a user-level file; copy the one from a machine where this theme is
-set up, or recreate the keys above.
-
-## Not carried over
-
-The original repos were written for Omarchy 2.x. These files have no equivalent
-in Omarchy 4.5 and were intentionally dropped, because the Omarchy shell
-replaced the old bar, launcher, notifications and OSD, and GTK is Adwaita
-based:
-
-`waybar.css`, `walker.css`, `wofi.css`, `mako.ini`, `swayosd.css`, `gtk.css`,
-`hyprlock.conf`, `vencord.theme.css`, `warp.yaml`, `zellij.kdl`, and the
-bundled VS Code extension. Neovim, helix, tmux, Gum, VSCode and GTK are
-regenerated from `colors.toml`.
-
 ## Credits
 
 * Original palette, terminal colours and wallpapers: JerryJerrington / Aether
