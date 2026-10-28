@@ -22,7 +22,7 @@ for a moodier tone.
 | Orange | `#f652a9` |
 | Green | `#7bbc96` |
 | Cyan | `#9BF1F2` |
-| Blue | `#807cda` |
+| Blue | `#E957E8` |
 | Muted | `#313c44` |
 | Active border | `#E957E8 #9BF1F2 25deg` |
 
@@ -36,14 +36,14 @@ mauve `#b88faa` / `#ddc6d5` for a moodier look.
 From a git clone:
 
 ```bash
-omarchy theme install https://github.com/<you>/omarchy-edgerunners-v2-theme.git
-omarchy theme set edgerunners-v2
+omarchy theme install https://github.com/JerryJerrington/omarchy-edgerunnersv3-theme.git
+omarchy theme set edgerunners-v3
 ```
 
-Or copy this directory to `~/.config/omarchy/themes/edgerunners-v2` and run:
+Or copy this directory to `~/.config/omarchy/themes/edgerunners-v3` and run:
 
 ```bash
-omarchy theme set edgerunners-v2
+omarchy theme set edgerunners-v3
 ```
 
 ## What is here
@@ -63,15 +63,15 @@ omarchy theme set edgerunners-v2
 
 Omarchy refuses `*.lua`, terminal configs and `vscode.json` from a theme
 installed through `omarchy theme install`, because those run code. That means a
-git install gets the colours but not the animation curves or these exact
-terminal palettes (its terminals are regenerated from `colors.toml`, with the
-theme's `#EBECFD` UI foreground instead of `#ffffff`). To keep everything as
-shipped, remove the clone marker so Omarchy treats the directory as your own
-theme:
+git install gets the colours but not the animations in `hyprland.lua`, the
+exact terminal palettes, or the rest of the shipped configs (terminals are
+regenerated from `colors.toml`, with the theme's `#EBECFD` UI foreground
+instead of `#ffffff`). To keep everything as shipped, remove the clone marker
+so Omarchy treats the directory as your own theme:
 
 ```bash
-rm -rf ~/.config/omarchy/themes/edgerunners-v2/.git
-omarchy theme set edgerunners-v2
+rm -rf ~/.config/omarchy/themes/edgerunners-v3/.git
+omarchy theme set edgerunners-v3
 ```
 
 The gradient border still works for everyone, since it is data in
