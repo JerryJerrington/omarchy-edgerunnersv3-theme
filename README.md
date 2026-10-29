@@ -80,3 +80,25 @@ The gradient border still works for everyone, since it is data in
 For custom Hyprland borders and animations, see the separate repo: [omarchy-edgerunnersv3-hypr](https://github.com/JerryJerrington/omarchy-edgerunnersv3-hypr). 
 
 These files (`hyprland.lua`) are not shipped with the theme as they run code in Hyprland and are ignored by Omarchy's theme installer when the theme is cloned as a git repo.
+
+## Installation
+
+### Via Omarchy Theme Installer
+```bash
+omarchy theme install https://github.com/JerryJerrington/omarchy-edgerunnersv3-theme.git
+```
+This installs the colors and assets. For borders/animations, see [omarchy-edgerunnersv3-hypr](https://github.com/JerryJerrington/omarchy-edgerunnersv3-hypr).
+
+### With Borders & Animations
+1. Follow the main install above
+2. Clone the hypr repo:
+```bash
+git clone https://github.com/JerryJerrington/omarchy-edgerunnersv3-hypr.git ~/.config/omarchy/themes/edgerunners-v3-hypr
+```
+3. Copy `hyprland.lua` to your theme (and optionally `colors.toml` for border color overrides):
+```bash
+cp ~/.config/omarchy/themes/edgerunners-v3-hypr/hyprland.lua ~/.config/omarchy/themes/edgerunners-v3/
+```
+4. Apply: `omarchy theme set edgerunners-v3`
+
+**Note:** If the theme directory contains a `.git` folder, Omarchy ignores `*.lua` files. Remove `.git` or use the copy method above.
