@@ -24,7 +24,7 @@ yellow = "#b88faa"
 orange = "#f652a9"
 green = "#7bbc96"
 cyan = "#9BF1F2"
-blue = "#807cda"
+blue = "#E957E8"
 magenta = "#E957E8"
 brown = "#943165"
 
@@ -32,7 +32,7 @@ bright_red = "#fe86c6"
 bright_yellow = "#ddc6d5"
 bright_green = "#b6ddc6"
 bright_cyan = "#ebfdfd"
-bright_blue = "#c3c1f0"
+bright_blue = "#f7a4f7"
 bright_magenta = "#f7a4f7"
 
 # Terminal selection matches omarchy-edgerunners-theme (v1): white on muted.
