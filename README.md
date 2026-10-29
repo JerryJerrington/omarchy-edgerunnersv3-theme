@@ -50,9 +50,7 @@ omarchy theme set edgerunners-v3
 
 | File | Purpose |
 | --- | --- |
-| `colors.toml` | Semantic palette; Omarchy generates Neovim (aether.nvim), Gum, helix, tmux, VSCode, browser policy, GTK mode and the shell theme from it |
-| `alacritty.toml`, `kitty.conf`, `foot.ini`, `ghostty.conf` | Terminal palettes: pure-white foreground `#ffffff`, white cursor, white-on-muted selection `#ffffff` on `#313c44` |
-| `hyprland.lua` | Neon border gradient plus the original theme's expressive animation curves |
+| `colors.toml` | Semantic palette; Omarchy generates Neovim (aether.nvim), Gum, helix, tmux, VSCode, browser policy, GTK mode, terminal configs and the shell theme from it |
 | `btop.theme` | btop palette from the original `omarchy-edgerunners-theme` |
 | `chromium.theme` | Browser UI colour (`R,G,B`) |
 | `icons.theme` | Icon theme (`Yaru-magenta`) |
@@ -62,17 +60,10 @@ omarchy theme set edgerunners-v3
 | `backgrounds/` | The original ten wallpapers, converted to WebP |
 
 Omarchy refuses `*.lua`, terminal configs and `vscode.json` from a theme
-installed through `omarchy theme install`, because those run code. That means a
-git install gets the colours but not the animations in `hyprland.lua`, the
-exact terminal palettes, or the rest of the shipped configs (terminals are
-regenerated from `colors.toml`, with the theme's `#EBECFD` UI foreground
-instead of `#ffffff`). To keep everything as shipped, remove the clone marker
-so Omarchy treats the directory as your own theme:
-
-```bash
-rm -rf ~/.config/omarchy/themes/edgerunners-v3/.git
-omarchy theme set edgerunners-v3
-```
+installed through `omarchy theme install`, because those run code. This theme
+ships only colours and static assets; terminals, borders and animations are
+regenerated from `colors.toml` or provided separately via
+[omarchy-edgerunnersv3-hypr](https://github.com/JerryJerrington/omarchy-edgerunnersv3-hypr).
 
 The gradient border still works for everyone, since it is data in
 `colors.toml`.
