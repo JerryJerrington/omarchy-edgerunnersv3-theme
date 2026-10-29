@@ -42,4 +42,4 @@ selection_background = "#313c44"
 # Neon gradient used for window borders and the whole Omarchy shell chrome
 # (popups, notifications, lock screen, menus, launcher).
 hyprland_active_border = "#E957E8 #9BF1F2 25deg"
-hyprland_inactive_border = "rgba(313c44aa)"
+hyprland_inactive_border = "rgba(943165aa)"
