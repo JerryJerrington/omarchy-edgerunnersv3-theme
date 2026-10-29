@@ -82,3 +82,10 @@ The gradient border still works for everyone, since it is data in
 * Original palette, terminal colours and wallpapers: JerryJerrington / Aether
 * Port: Edgerunners V3 for Omarchy Quattro 4.5 (terminal palette from
   `omarchy-edgerunners-theme`, shell/UI from `omarchy-edgerunnersv2-theme`)
+
+
+## Hyprland Borders & Animations
+
+For custom Hyprland borders and animations, see the separate repo: [omarchy-edgerunnersv3-hypr](https://github.com/JerryJerrington/omarchy-edgerunnersv3-hypr). 
+
+These files (`hyprland.lua`) are not shipped with the theme as they run code in Hyprland and are ignored by Omarchy's theme installer when the theme is cloned as a git repo.
